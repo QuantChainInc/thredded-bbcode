@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.homepage      = 'https://github.com/thredded/thredded-bbcode'
   s.license       = 'MIT'
 
-  s.required_ruby_version = '~> 2.3'
+  s.required_ruby_version = '~> 2.2'
 
   s.files = Dir['{lib}/**/*'] + %w(LICENSE.txt README.md)
 
