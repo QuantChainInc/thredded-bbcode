@@ -13,7 +13,7 @@ module Thredded
           Thredded::BBCode::Filter
         )
         BBCoder.configure do
-          tag :img, match: %r{^https?://.*(png|bmp|jpe?g|gif)$},
+          tag :img, match: %r{^h/.*(png|bmp|jpe?g|gif)$},
                     singular: false do
             %(<img src="#{singular? ? meta : content}" />)
           end
